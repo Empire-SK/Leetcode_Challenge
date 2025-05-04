@@ -4,7 +4,7 @@ def fixer(text):
 
     text = '_'.join(text.split())           
 
-    filename = text + '.c'               
+    filename = text + '.py'               
 
     
 
@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("557. Reverse Words in a String III")
+fixer("2706. Buy Two Chocolates")
