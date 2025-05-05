@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2706. Buy Two Chocolates")
+fixer("2894. Divisible and Non-divisible Sums Difference")
