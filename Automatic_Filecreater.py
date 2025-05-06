@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("1351. Count Negative Numbers in a Sorted Matrix")
+fixer("3000. Maximum Area of Longest Diagonal Rectangle")
