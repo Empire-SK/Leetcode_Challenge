@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("3000. Maximum Area of Longest Diagonal Rectangle")
+fixer("191. Number of 1 Bits")
