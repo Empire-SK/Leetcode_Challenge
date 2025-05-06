@@ -2,8 +2,10 @@ class Solution(object):
     def fib(self, n):
         if n <= 1:
             return n
-        else:
-            return self.fib(n - 1) + self.fib(n - 2)
-        
-        # This is a recursive implementation of the Fibonacci sequence.
-        # Attempt 1
+
+        a, b = 0, 1
+        for _ in range(2, n + 1):
+            a, b = b, a + b
+        return b
+    
+    # Another approach using memoization
