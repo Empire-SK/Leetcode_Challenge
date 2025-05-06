@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("704. Binary Search")
+fixer("35. Search Insert Position")
