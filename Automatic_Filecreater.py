@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2894. Divisible and Non-divisible Sums Difference")
+fixer("2235. Add Two Integers")
