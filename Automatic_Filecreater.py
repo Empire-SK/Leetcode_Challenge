@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("509. Fibonacci Number")
+fixer("70. Climbing Stairs")
