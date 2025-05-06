@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("1128. Number of Equivalent Domino Pairs")
+fixer("509. Fibonacci Number")
