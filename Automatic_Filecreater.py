@@ -4,7 +4,7 @@ def fixer(text):
 
     text = '_'.join(text.split())           
 
-    filename = text + '.py'               
+    filename = text + '.c'               
 
     
 
@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2179. Count Good Triplets in an Array")
+fixer("1399. Count Largest Group")
