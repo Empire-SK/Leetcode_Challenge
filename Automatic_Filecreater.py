@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("70. Climbing Stairs")
+fixer("704. Binary Search")
