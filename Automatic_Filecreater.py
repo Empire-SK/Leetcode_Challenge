@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2071. Maximum Number of Tasks You Can Assign")
+fixer("520. Detect Capital")
