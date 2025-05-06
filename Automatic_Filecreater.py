@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("191. Number of 1 Bits")
+fixer("1128. Number of Equivalent Domino Pairs")
