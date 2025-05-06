@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("781. Rabbits in Forest")
+fixer("2179. Count Good Triplets in an Array")
