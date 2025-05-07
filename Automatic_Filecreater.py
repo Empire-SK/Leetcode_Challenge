@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2799. Count Complete Subarrays in an Array")
+fixer("1678. Goal Parser Interpretation")
