@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2769. Find the Maximum Achievable Number")
+fixer("268. Missing Number")
