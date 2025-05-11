@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2544. Alternating Digit Sum")
+fixer("1773. Count Items Matching a Rule")
