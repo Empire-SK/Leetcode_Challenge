@@ -1,12 +1,19 @@
 class Solution(object):
     def countMatches(self, items, ruleKey, ruleValue):
+        # Map the ruleKey to its corresponding index in each item array
+        key_index = {
+            "type": 0,
+            "color": 1,
+            "name": 2
+        }
+        
+        # Get the appropriate index for the given ruleKey
+        index = key_index[ruleKey]
+        
+        # Count items where the value at the determined index matches ruleValue
         count = 0
-        for i in range(0, len(items)):
-            current_list = items[i]
-            if ruleKey == "type" and ruleValue == current_list[0]:
+        for item in items:
+            if item[index] == ruleValue:
                 count += 1
-            elif ruleKey == "color" and ruleValue == current_list[1]: 
-                count += 1
-            elif ruleKey == "name" and ruleValue == current_list[2]:
-                count += 1
-        return count 
+                
+        return count
