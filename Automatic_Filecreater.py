@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("1773. Count Items Matching a Rule")
+fixer("643. Maximum Average Subarray I")
