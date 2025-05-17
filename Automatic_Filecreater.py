@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2114. Maximum Number of Words Found in Sentences")
+fixer("66. Plus One")
