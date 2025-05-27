@@ -1,11 +1,15 @@
 class Solution(object):
     def getCommon(self, nums1, nums2):
-        set1 = set(nums1)
-        set2 = set(nums2)
-        common = set1.intersection(set2)
+        i = 0 
+        j = 0
 
-        if common:
-            return min(common)
-        else: 
-            return -1       
+        while (i < len(nums1)) and (j < len(nums2)):
+            if nums1[i] == nums2[j]:
+                return nums1[i]
+            elif nums1[i] < nums2[j]:
+                i += 1
+            else:
+                j += 1     
         
+
+        return -1  
