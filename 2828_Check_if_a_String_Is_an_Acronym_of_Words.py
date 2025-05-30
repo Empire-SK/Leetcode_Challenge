@@ -1,3 +1,8 @@
 class Solution(object):
     def isAcronym(self, words, s):
-        return s == ''.join(word[0] for word in words)
+        l=[]
+        for num in words:
+            l.append(num[0])
+        if "".join(l)==s:
+            return True
+        return False
