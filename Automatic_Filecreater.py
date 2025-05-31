@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("1304. Find N Unique Integers Sum up to Zero")
+fixer("2965. Find Missing and Repeated Values")
