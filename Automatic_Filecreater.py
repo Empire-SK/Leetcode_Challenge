@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("3090. Maximum Length Substring With Two Occurrences")
+fixer("2273. Find Resultant Array After Removing Anagrams")
