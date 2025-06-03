@@ -1,17 +1,10 @@
 class Solution(object):
     def removeAnagrams(self, words):
-        """
-        :type words: List[str]
-        :rtype: List[str]
-        """
-        right = 1
-        left = right - 1
-        while right < len(words):
-            left_word = words[left]
-            right_word = words[right]
-            if sorted(left_word) == sorted(right_word):
-                words.remove(right_word)
-            else:
-                right += 1
-                left = right - 1
-        return words
+        result = []
+        
+        for word in words:
+            # If result is empty or the last word in result isn't an anagram of current word it will be added
+            if not result or sorted(word) != sorted(result[-1]):
+                result.append(word)
+        
+        return result
