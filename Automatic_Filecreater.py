@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2273. Find Resultant Array After Removing Anagrams")
+fixer("1689. Partitioning Into Minimum Number Of Deci-Binary Numbers")
