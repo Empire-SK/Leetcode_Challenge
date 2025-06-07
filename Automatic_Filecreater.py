@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("1689. Partitioning Into Minimum Number Of Deci-Binary Numbers")
+fixer("169. Majority Element")
