@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("169. Majority Element")
+fixer("2341. Maximum Number of Pairs in Array")
