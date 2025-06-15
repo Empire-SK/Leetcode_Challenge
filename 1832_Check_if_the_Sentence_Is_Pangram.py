@@ -1,8 +1,6 @@
-from collections import Counter
 class Solution(object):
     def checkIfPangram(self, sentence):
-        ch = Counter(sentence)
-        count = len(ch)
-        if count == 26:
+        s = list(set(list(sentence)))
+        if len(s) == 26:
             return True
         return False
