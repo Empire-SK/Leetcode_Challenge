@@ -1,7 +1,19 @@
-from collections import Counter
-
 class Solution(object):
     def maxFrequencyElements(self, nums):
-        freq = Counter(nums)
-        max_freq = max(freq.values())
-        return sum(count for count in freq.values() if count == max_freq)
+        FreeQ={}
+        Count_Val=0
+        for i in nums:
+            if i in FreeQ:
+                FreeQ[i]+=1
+                
+            else:
+                FreeQ[i]=1
+        
+        #i will be finding the highest freequncy 
+        max_freequency=max(FreeQ.values())
+
+        total=0
+        for val in FreeQ.values():
+            if val == max_freequency:
+                total+=val
+        return total
