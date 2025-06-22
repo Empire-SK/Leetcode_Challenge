@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("3005. Count Elements With Maximum Frequency")
+fixer("26. Remove Duplicates from Sorted Array")
