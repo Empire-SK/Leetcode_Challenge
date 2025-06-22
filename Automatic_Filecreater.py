@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("26. Remove Duplicates from Sorted Array")
+fixer("1859. Sorting the Sentence")
