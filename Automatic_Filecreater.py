@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("283. Move Zeroes")
+fixer("1089. Duplicate Zeros")
