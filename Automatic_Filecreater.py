@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("1089. Duplicate Zeros")
+fixer("83. Remove Duplicates from Sorted List")
