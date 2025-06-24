@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("83. Remove Duplicates from Sorted List")
+fixer("21. Merge Two Sorted Lists")
