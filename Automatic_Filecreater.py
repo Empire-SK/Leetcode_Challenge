@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("21. Merge Two Sorted Lists")
+fixer("349. Intersection of Two Arrays")
