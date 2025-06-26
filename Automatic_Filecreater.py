@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("349. Intersection of Two Arrays")
+fixer("350. Intersection of Two Arrays II")
