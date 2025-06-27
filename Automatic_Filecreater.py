@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("350. Intersection of Two Arrays II")
+fixer("744. Find Smallest Letter Greater Than Target")
