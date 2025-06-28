@@ -1,17 +1,8 @@
 class Solution(object):
     def findErrorNums(self, nums):
         n = len(nums)
-        count = [0] * (n + 1)  # count[0] is unused
-
-        for num in nums:
-            count[num] += 1
-
-        res = []
-
-        for i in range(1, n + 1):
-            if count[i] == 0:
-                res.append(i)  # Missing number
-            elif count[i] == 2:
-                res.insert(0, i)  # Duplicate number (put first in result)
-
-        return res
+        exp_sum = n*(n+1)//2
+        act_sum = sum(nums)
+        duplicate = act_sum - sum(set(nums))
+        m = exp_sum - (act_sum - duplicate)
+        return [duplicate, m]
