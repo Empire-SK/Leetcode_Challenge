@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("645. Set Mismatch")
+fixer("628. Maximum Product of Three Numbers")
