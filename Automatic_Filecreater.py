@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("628. Maximum Product of Three Numbers")
+fixer("414. Third Maximum Number")
