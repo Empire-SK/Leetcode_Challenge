@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("219. Contains Duplicate II")
+fixer("2367. Number of Arithmetic Triplets")
