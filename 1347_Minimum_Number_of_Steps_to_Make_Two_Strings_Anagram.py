@@ -1,12 +1,10 @@
-from collections import Counter
-
 class Solution(object):
     def minSteps(self, s, t):
-        count_s = Counter(s)
-        count_t = Counter(t)
-        
-        steps = 0
-        for char in count_s:
-            steps += max(0, count_s[char] - count_t.get(char, 0))
-        
-        return steps
+        ret_val = 0
+        l = list("abcdefghijklmnopqrstuvwxyz")
+        for char in l:
+            s_count = s.count(char)
+            t_count = t.count(char)
+            if s_count > t_count:
+                ret_val += s_count - t_count
+        return ret_val
