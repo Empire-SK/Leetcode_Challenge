@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("2186. Minimum Number of Steps to Make Two Strings Anagram II")
+fixer("1657. Determine if Two Strings Are Close")
