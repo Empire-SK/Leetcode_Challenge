@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("1657. Determine if Two Strings Are Close")
+fixer("380. Insert Delete GetRandom O(1)")
