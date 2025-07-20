@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("380. Insert Delete GetRandom O(1)")
+fixer("49. Group Anagrams")
