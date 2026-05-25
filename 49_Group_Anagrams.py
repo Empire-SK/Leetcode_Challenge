@@ -1,3 +1,4 @@
+from collections import defaultdict
 __import__("atexit").register(lambda:open("display_runtime.txt","w").write("0"))
 class Solution(object):
     def groupAnagrams(self, strs):
