@@ -16,4 +16,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 
-fixer("94. Binary Tree Inorder Traversal")
+fixer("396. Rotate Function")
